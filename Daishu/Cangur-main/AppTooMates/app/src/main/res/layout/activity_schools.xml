@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SchoolsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp ">
+
+        <ImageButton
+            android:id="@+id/close_btn_schools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:tint="#D76A74"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_close"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/title_txt_schools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_schools_select_the_school"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/text_search_edt_schools"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/edittext"
+                android:hint="@string/activity_schools_type_something"
+                android:padding="10dp" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:elevation="12dp"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:thicknessRatio="1.9"
+                app:cardCornerRadius="4dp"
+                tools:ignore="MissingClass,MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/search_btn_schools"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_action_search"
+                    android:background="@color/green" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_schools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

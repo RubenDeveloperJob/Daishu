@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "962796602525",
+    "firebase_url": "https://cangurdam-30129-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cangurdam-30129",
+    "storage_bucket": "cangurdam-30129.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962796602525:android:332d385c3c35515adb0074",
+        "android_client_info": {
+          "package_name": "net.vidalibarraquer.apptoomates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962796602525-oqjv1aoq56vmmg95jlt9j3sqec9dpqj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.vidalibarraquer.apptoomates",
+            "certificate_hash": "7a36ab6c8c2bd02e24028a3fdeb12eded44a9f7c"
+          }
+        },
+        {
+          "client_id": "962796602525-s50fibc2d6ipte7c115q11an0cvp3dh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWg1KDDQ3szI09POTN84iCgStN3QTubG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962796602525-h97h9q03duhd5j6ov2vsjlt62h2n875b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

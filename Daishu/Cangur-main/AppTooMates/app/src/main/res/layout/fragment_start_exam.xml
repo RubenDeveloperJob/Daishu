@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvTime"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.StartExamFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/close_btn_start_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:tint="#D76A74"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/ic_action_close"
+            tools:ignore="UseAppTint" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_txt_schools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/fragment_start_exam_rules"
+                android:textColor="#000"
+                android:textSize="25dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/hola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/fragment_start_exam_contenido_rule" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center | bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/continue_select_exam"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/green"
+                android:gravity="center"
+                android:text="@string/fragment_start_exam_start" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

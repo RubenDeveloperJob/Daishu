@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hola fragment vacío</string>
+    <string name="fragment_start_exman_rules">Normas</string>
+    <string name="activity_language_language">Idioma</string>
+    <string name="text_null">Vacío</string>
+    <string name="activity_profile_logout">Cerrar sesión</string>
+    <string name="activity_profile_exams">Examenes</string>
+    <string name="activity_profile_median">Media</string>
+    <string name="activity_ranking_ranking">Ranking</string>
+    <string name="activity_schools_select_the_school">Selecciona el instituto</string>
+    <string name="activity_schools_type_something">Empieza a escribir</string>
+    <string name="bottomsheetdialog_filtrar_ranking_test">Examen</string>
+    <string name="bottomsheetdialog_filtrar_ranking_level">Nivel</string>
+    <string name="bottomsheetdialog_filtrar_ranking_Num_test">Número de examenes</string>
+    <string name="bottomsheetdialog_filtrar_ranking_apply">Aplicar</string>
+    <string name="dialog_searchable_spinner_select_number">Seleccionar examen</string>
+    <string name="dialog_searchable_spinner_search">Buscar</string>
+    <string name="fragment_questions_title">Título</string>
+    <string name="fragment_questions_behind">Anterior</string>
+    <string name="fragment_questions_next">Siguiente</string>
+    <string name="fragment_select_exam_select_the_level">Seleccionar nivel</string>
+    <string name="fragment_punts_title">Título</string>
+    <string name="fragment_punts_goselectexam">Probar otro examen</string>
+    <string name="fragment_start_exam_rules">Normas</string>
+    <string name="fragment_start_exam_contenido_rule">Duración del examen: 90 minutos con 30 preguntas.\n\nLas preguntas incorrectas no afectan la puntuación final.\n\nLa puntuación de cada pregunta varía debido a su dificultad.\n\nSolo hay una respuesta correcta en una pregunta.\n\nLas puntuaciones pueden variar dependiendo de la duración del examen.</string>
+    <string name="fragment_start_exam_start">Empezar</string>
+    <string name="fragment_punts_congratulations">¡Felicidades! Esta es tu puntuación:</string>
+    <string name="fragment_punts_left">El tiempo que te sobró para el examen:</string>
+    <string name="bottomsheetdialog_filtrar_ranking_select_exam">Seleccionar un examen</string>
+</resources>

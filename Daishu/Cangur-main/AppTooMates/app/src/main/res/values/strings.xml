@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">Dàishǔ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_start_exman_rules">Rules</string>
+    <string name="activity_language_language">Language</string>
+    <string name="text_null">Null</string>
+    <string name="activity_profile_logout">Logout</string>
+    <string name="activity_profile_exams">Exams</string>
+    <string name="activity_profile_median">Median</string>
+    <string name="activity_ranking_ranking">Ranking</string>
+    <string name="activity_schools_select_the_school">Select the school</string>
+    <string name="activity_schools_type_something">Type something</string>
+    <string name="bottomsheetdialog_filtrar_ranking_test">Exam</string>
+    <string name="bottomsheetdialog_filtrar_ranking_level">Level</string>
+    <string name="bottomsheetdialog_filtrar_ranking_Num_test">Number of  exams</string>
+    <string name="bottomsheetdialog_filtrar_ranking_apply">Apply</string>
+    <string name="dialog_searchable_spinner_select_number">Select Exams</string>
+    <string name="dialog_searchable_spinner_search">Search</string>
+    <string name="fragment_questions_title">Title</string>
+    <string name="fragment_questions_behind">Previous</string>
+    <string name="fragment_questions_next">Next</string>
+    <string name="fragment_select_exam_select_the_level">Select the level</string>
+    <string name="fragment_punts_title">Title</string>
+    <string name="fragment_punts_goselectexam">Try another one</string>
+    <string name="fragment_start_exam_rules">Rules</string>
+    <string name="fragment_start_exam_contenido_rule">Exam duration:  90 minutes with 30 questions.  Incorrect questions do not affect the final score.  The score of each question varies due to its difficulty.  There is only one correct answer in a question.  Scores could vary depending on the duration of the exam.</string>
+    <string name="fragment_start_exam_start">Start Exam</string>
+    <string name="fragment_punts_congratulations">Congratulations! This is your score:</string>
+    <string name="fragment_punts_left">The time you had left over for the exam:</string>
+    <string name="bottomsheetdialog_filtrar_ranking_select_exam">Select exam</string>
+</resources>

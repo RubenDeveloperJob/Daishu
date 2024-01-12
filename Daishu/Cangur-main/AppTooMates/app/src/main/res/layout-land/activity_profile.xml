@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="top|left"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|top">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/image_view_profile"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:elevation="12dp"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    android:thicknessRatio="1.9"
+                    app:cardCornerRadius="90dp"
+                    tools:ignore="MissingClass,MissingConstraints">
+
+                    <ImageView
+                        android:id="@+id/image_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/ic_launcher_background" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/name_profile"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/text_null"
+                android:textSize="20dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logout_btn_profile"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/main_button"
+                android:text="@string/activity_profile_logout"
+                android:textColor="#D76A74" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/test"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:elevation="12dp"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                android:thicknessRatio="1.9"
+                app:cardCornerRadius="20dp"
+                tools:ignore="MissingClass,MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/grey_selected"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|top"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <TextView
+                            android:id="@+id/exams_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/activity_profile_exams"
+                            android:textSize="16dp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <TextView
+                            android:id="@+id/number_exams_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/text_null"
+                            android:textSize="24dp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/grey_selected"
+                        android:gravity="center|top"
+                        android:orientation="vertical">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <TextView
+                            android:id="@+id/media_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/activity_profile_median"
+                            android:textSize="16dp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                        <TextView
+                            android:id="@+id/media_exams_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/text_null"
+                            android:textSize="24dp" />
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:scrollbars="none">
+
+                <androidx.gridlayout.widget.GridLayout
+                    android:id="@+id/grid_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:isScrollContainer="true"
+                    android:textColor="#000"
+                    app:columnCount="2"
+                    app:useDefaultMargins="true" >
+                </androidx.gridlayout.widget.GridLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- app:itemIconTint="@drawable/selected_nav_bar" -->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/start_exam_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="64dp"
+        android:clickable="true"
+        app:backgroundTint="#55b752"
+        app:tint="#ffffff"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_play" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:labelVisibilityMode="selected"
+        app:itemTextColor="@color/red"
+        app:itemIconSize="20dp"
+        app:itemRippleColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:menu="@menu/bottom_nav"
+        tools:layout_editor_absoluteX="60dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

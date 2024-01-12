@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SelectExamFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/goback_btn_select_exam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:tint="#D76A74"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/ic_arrow_back"
+            tools:ignore="UseAppTint" />
+
+        <TextView
+            android:id="@+id/level_txt_select_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fragment_select_exam_select_the_level"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Spinner
+            android:id="@+id/level_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            style="@style/spinner"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/exams_list"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:dividerHeight="5px"
+                android:listSelector="@drawable/list_selector"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/continue_select_exam"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/green"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/fragment_questions_next" />
+
+    </LinearLayout>
+
+</FrameLayout>

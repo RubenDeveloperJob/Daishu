@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hola fragment en blanc</string>
+    <string name="fragment_start_exman_rules">Normes</string>
+    <string name="activity_language_language">Idioma</string>
+    <string name="text_null">Buit</string>
+    <string name="activity_profile_logout">Tancar sessió</string>
+    <string name="activity_profile_exams">Examen</string>
+    <string name="activity_profile_median">Mitjana</string>
+    <string name="activity_ranking_ranking">Ranking</string>
+    <string name="activity_schools_select_the_school">Selecciona l\'institut</string>
+    <string name="activity_schools_type_something">Comença a escriure</string>
+    <string name="bottomsheetdialog_filtrar_ranking_test">Examen</string>
+    <string name="bottomsheetdialog_filtrar_ranking_level">Nivell</string>
+    <string name="bottomsheetdialog_filtrar_ranking_Num_test">Nombre de examens</string>
+    <string name="bottomsheetdialog_filtrar_ranking_apply">Aplicar</string>
+    <string name="dialog_searchable_spinner_select_number">Seleccionar examen</string>
+    <string name="dialog_searchable_spinner_search">Cercar</string>
+    <string name="fragment_questions_title">Títol</string>
+    <string name="fragment_questions_behind">Anterior</string>
+    <string name="fragment_questions_next">Següent</string>
+    <string name="fragment_select_exam_select_the_level">Seleccionar nivell</string>
+    <string name="fragment_punts_title">Títol</string>
+    <string name="fragment_punts_goselectexam">Provar un altre examen</string>
+    <string name="fragment_start_exam_rules">Normes</string>
+    <string name="fragment_start_exam_start">Començar</string>
+    <string name="fragment_punts_congratulations">Felicitats! Aquesta es la teva puntuació:</string>
+    <string name="fragment_punts_left">El temps que t\'ha sobrat:</string>
+    <string name="fragment_start_exam_contenido_rule">Durada de l\'examen: 90 minuts amb 30 preguntes.\n\nLes preguntes incorrectes no afecten la puntuació final.\n\nLa puntuació de cada pregunta varia a causa de la seva dificultat.\n\nNomés hi ha una resposta correcta en una pregunta.\n\nLes puntuacions poden variar en funció de la durada de l\'examen.</string>
+    <string name="bottomsheetdialog_filtrar_ranking_select_exam">Seleccionar un examen</string>
+</resources>

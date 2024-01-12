@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- menu/bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/profile_nav"
+    android:icon="@drawable/ic_action_account"
+    android:title="Profile" />
+<item
+    android:id="@+id/ranking_nav"
+    android:icon="@drawable/ic_action_flag"
+    android:title="Ranking" />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="levels_name">
+        <!-- Catalán -->
+        <item name="ca_bachiller">Bachillerato</item>
+        <item name="ca_eso">ESO</item>
+        <item name="ca_primaria">Primaria</item>
+        <item name="ca_otros">Otros</item>
+
+
+        <!-- Español -->
+        <!-- !!!  ESTOS EXAMENES NO ESTAN DISPONIBLE EN ESTE MOMENTO: !!!
+        <item name="es_bachiller">Bachillerato (ES)</item>
+        <item name="es_eso">ESO (ES)</item>
+        <item name="es_primaria">Primaria (ES)</item>
+        -->
+        <item name="es_otros">Otros (ES)</item>
+    </string-array>
+
+    <string-array name="levels_links">
+        <!-- Catalán -->
+        <item name="ca_bachiller">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fca%2Foutput_bachiller_ca.json?alt=media</item>
+        <item name="ca_eso">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fca%2Foutput_eso_ca.json?alt=media</item>
+        <item name="ca_primaria">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fca%2Foutput_primaria_ca.json?alt=media</item>
+        <item name="ca_otros">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fca%2Foutput_otros_ca.json?alt=media</item>
+
+        <!-- Español -->
+        <!-- !!! ESTOS EXAMENES NO ESTAN DISPONIBLE EN ESTE MOMENTO: !!!
+        <item name="es_bachiller">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fes%2Foutput_bachiller_es.json?alt=media</item>
+        <item name="es_eso">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fes%2Foutput_eso_es.json?alt=media</item>
+        <item name="es_primaria">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fes%2Foutput_primaria_es.json?alt=media</item>
+        -->
+        <item name="es_otros">https://firebasestorage.googleapis.com/v0/b/cangurdam-30129.appspot.com/o/preguntas%2Fes%2Foutput_otros_es.json?alt=media</item>
+    </string-array>
+</resources>

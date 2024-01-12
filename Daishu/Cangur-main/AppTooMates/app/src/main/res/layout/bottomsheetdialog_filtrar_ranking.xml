@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:shape="ring">
+
+    <ImageButton
+        android:id="@+id/close_btn_filtrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:tint="#D76A74"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/ic_action_close"
+        tools:ignore="UseAppTint" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottomsheetdialog_filtrar_ranking_test" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/school_edt_filtrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edittext"
+        android:hint="@string/text_null"
+        android:padding="10dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/nivel_txt_filtrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/bottomsheetdialog_filtrar_ranking_level" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Spinner
+        android:id="@+id/nivel_spn_filtrar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        style="@style/spinner"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bottomsheetdialog_filtrar_ranking_Num_test" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderSelectNumPrueba"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:value="25"
+        android:stepSize="5"
+        android:valueFrom="10"
+        android:valueTo="200" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/aplicar_btn_filtrar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/green"
+        android:gravity="center"
+        android:text="@string/bottomsheetdialog_filtrar_ranking_apply" />
+
+</LinearLayout>

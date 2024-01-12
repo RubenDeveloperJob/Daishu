@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.vidalibarraquer.daishu"
+    tools:ignore="LockedOrientationActivity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppTooMates"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="General" />
+
+        <activity
+            android:name="net.vidalibarraquer.daishu.ui.RankingActivity"
+            android:exported="false" />
+        <activity
+            android:name="net.vidalibarraquer.daishu.ui.ExamenActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="net.vidalibarraquer.daishu.ui.LanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name="net.vidalibarraquer.daishu.ui.SchoolsActivity"
+            android:exported="false" />
+        <activity
+            android:name="net.vidalibarraquer.daishu.ui.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="net.vidalibarraquer.daishu.ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- [Inici firebase_service] -->
+        <service
+            android:name="net.vidalibarraquer.daishu.objects.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <!-- [FI firebase_service] -->
+    </application>
+
+</manifest>
