@@ -1,16 +1,18 @@
-<h1 align="center">PlatePal 🍽️</h1>
+<h1 align="center">Daishu 🧮</h1>
 
 <p align="center">
-  <img src="ruta/a/la/imagen.png" alt="PlatePal" width="300">
+  <img src="ruta/a/la/imagen.png" alt="Daishu" width="300">
 </p>
 
-<p align="center">Una aplicación móvil para la gestión de mesas y comandas en restaurantes, desarrollada en Java para Android con Firebase.</p>
+<p align="center">Una aplicación móvil diseñada para las pruebas canguro de matemáticas, desarrollada en Java para Android con Firebase.</p>
 
 ## :rocket: Características principales
 
-- Gestión intuitiva de mesas y comandas.
-- Conexión segura y en tiempo real con Firebase.
-- Fácil integración con Google para autenticación y almacenamiento de datos.
+- Preparación completa para las pruebas canguro de matemáticas.
+- Amplia colección de problemas y ejercicios matemáticos.
+- Seguimiento del progreso del estudiante y estadísticas detalladas.
+- Ranking de usuarios para fomentar la competencia saludable.
+- Conexión segura y en tiempo real con Firebase para almacenamiento de datos.
 
 ## :computer: Requisitos previos
 
